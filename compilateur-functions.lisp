@@ -14,6 +14,7 @@
     		'((PUSH :R0))
     		'((POP :R1))
     		'((POP :R0))
+    		(case op
 
     		  ('+ '((ADD :R0 :R1)))
               ('- '((SUB :R0 :R1)))
